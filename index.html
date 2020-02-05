@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vasilyev 18 Home Stock</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div id="header">
+
+        <div id="magasineBut">
+            <button id="addTableForGoods">Создать магазин</button>
+            <button id="dropTableForGoods">Удалить магазин</button>
+        </div>
+
+        <div id="addGoodBlock">
+            <div id="goodTop">
+                <button id="addGoodIntoMagasine">Добавить товар</button>
+                <form id="addForm1" name='goodUniqueName'><input name="one" placeholder="Название товара" id="addGoodName"></form>
+            </div>
+            <form id="addForm2" name='goodUniqueDesc'><input name='two' placeholder="Описание товара" id="addGoodDescript"></form>
+        </div>
+
+        <div id="deleteGoodBlock">
+             <button id="dropGoodOntoMagasine">Удалить товар по ID</button>
+            <form id="deleteForm" name='goodDeleter'><input name='three' placeholder="ID к удалению" id="deleteFormPlace"></form>
+        </div>
+
+        <div id="cartBut">
+            <button id="addTableForCart">Создать корзину</button>
+            <button id="dropTableForCart">Удалить корзину</button>
+        </div>
+
+        <div id="viewBut">
+            <button id="addView">Создать вьюшку</button>
+            <button id="dropView">Удалить вьюшку</button>
+        </div>
+
+        <div id="cartView">
+            <button id="showView">Посмотреть корзину</button>
+            <button id="closeView">Закрыть корзину</button>
+        </div>
+
+    </div>
+
+    <div id="developConsole"></div>
+
+    <div id="root"></div>
+
+    <div id="cart"></div>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
